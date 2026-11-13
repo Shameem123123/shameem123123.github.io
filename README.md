@@ -13,6 +13,7 @@ This site presents my background, skills and projects in one place. It is a fast
 - **About:** who I am, education and languages
 - **Projects:** SquadTurf, Quiz Application, Meesho Label Cropper, NET Mock Test, CutOut and Rx Stockcheck
 - **Skills:** backend, frontend, web concepts and tools
+- **Journey:** education and what I am learning next, with a résumé download
 - **Questions:** short answers about me and my work
 - **Contact:** email, LinkedIn and GitHub
 
@@ -25,8 +26,8 @@ This site presents my background, skills and projects in one place. It is a fast
 
 ## Design
 
-- Clean, Apple-inspired layout with translucent surfaces and smooth, interruptible motion
-- Automatic light and dark mode
+- Clean, white, Apple-inspired layout with a single teal accent, translucent navigation and smooth motion
+- Compact mobile menu and section highlighting while scrolling
 - Responsive from phones to large desktops
 - Respects reduced-motion, reduced-transparency and high-contrast settings
 - Keyboard-friendly, with visible focus states
@@ -41,7 +42,9 @@ This site presents my background, skills and projects in one place. It is a fast
 ```
 index.html     page content and metadata
 style.css      all styling
-script.js      scroll animations and small interactions
+script.js      scroll animations, menu and small interactions
+Shameemul_Hassan_Resume.pdf   downloadable résumé
+og-image.png   preview image used when the link is shared
 robots.txt     site configuration
 sitemap.xml    site configuration
 README.md      this file
