@@ -11,18 +11,18 @@ This site presents my background, skills and projects in one place. It is a fast
 ## Sections
 
 - **About:** who I am, education and languages
-- **Projects:** SquadTurf, Quiz Application, Meesho Label Cropper, NET Mock Test, CutOut and Rx Stockcheck
+- **Work:** SquadTurf and NET Mock Test
 - **Skills:** backend, frontend, web concepts and tools
 - **Journey:** education and what I am learning next, with a résumé download
 - **Questions:** short answers about me and my work
 - **Contact:** email, LinkedIn and GitHub
 
-## Featured projects
+## Projects
 
-| Project | Description | Code |
+| Project | What it is | Links |
 |---|---|---|
-| SquadTurf | Django web app for hosting and joining sports matches, with player ratings, push notifications, live updates and PWA support | [Squad_Turf](https://github.com/shameem123123/Squad_Turf) |
-| Quiz Application | Django quiz app with questions managed through the admin panel and an automatic score on the results page | [Quiz_App](https://github.com/shameem123123/Quiz_App) |
+| SquadTurf | A Django web app for organising sports matches, with player ratings, live updates, push notifications and PWA support | [Live app](https://squad-turf.onrender.com) · [Source](https://github.com/shameem123123/Squad_Turf) |
+| NET Mock Test | A single-file mock-test engine for NET preparation: JSON question bank, 1 : 2 paper split, instant feedback with reasons, scoring and review | [Open app](https://shameem123123.github.io/net-mock-test.html) |
 
 ## Design
 
@@ -43,6 +43,8 @@ This site presents my background, skills and projects in one place. It is a fast
 index.html     page content and metadata
 style.css      all styling
 script.js      scroll animations, menu and small interactions
+net-mock-test.html   the NET Mock Test app
+squadturf-home.jpg   SquadTurf home screen shown on the project card
 Shameemul_Hassan_Resume.pdf   downloadable résumé
 og-image.png   preview image used when the link is shared
 robots.txt     site configuration
