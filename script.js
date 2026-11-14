@@ -71,4 +71,16 @@
       if (s) spy.observe(s);
     });
   }
+
+  // Show the SquadTurf home screenshot once it has loaded; the stack chips stand in until then
+  var img = document.getElementById('shot-img');
+  if (img) {
+    var ok = function () {
+      if (img.naturalWidth > 0) {
+        img.hidden = false;
+        img.parentNode.classList.add('loaded');
+      }
+    };
+    if (img.complete) ok(); else img.addEventListener('load', ok);
+  }
 })();

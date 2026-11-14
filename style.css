@@ -112,7 +112,7 @@ main{max-width:1080px;margin:0 auto;padding:0 1.25rem}
 .block.alt{background:var(--bg-alt);box-shadow:0 0 0 100vmax var(--bg-alt);clip-path:inset(0 -100vmax);margin:5rem 0 0;padding:5.5rem 0}
 .alt .inner{max-width:1080px;margin:0 auto}
 .kicker{margin:0 0 .6rem;color:var(--accent);font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em}
-.block h2{font-size:clamp(2rem,5.6vw,3.3rem);font-weight:700;line-height:1.06;letter-spacing:-.035em;margin:0 0 2.2rem;max-width:20em}
+.block h2{font-size:clamp(1.9rem,5vw,2.8rem);font-weight:700;line-height:1.06;letter-spacing:-.035em;margin:0 0 2.2rem;max-width:20em}
 
 /* About */
 .about{display:grid;grid-template-columns:1.5fr 1fr;gap:2.5rem;align-items:start}
@@ -159,14 +159,6 @@ main{max-width:1080px;margin:0 auto;padding:0 1.25rem}
 @media (max-width:620px){.grid{grid-template-columns:1fr}.card.span2{grid-column:auto}}
 
 
-/* Principles */
-.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:3.5rem}
-.principle{padding:1.5rem 0 0;border-top:1px solid var(--line)}
-.principle .num{font-size:.78rem;font-weight:700;color:var(--accent);letter-spacing:.08em}
-.principle h3{font-size:1.2rem;letter-spacing:-.02em;margin:.5rem 0 .4rem}
-.principle p{margin:0;color:var(--muted);font-size:.97rem}
-@media (max-width:760px){.principles{grid-template-columns:1fr;gap:1.4rem}}
-.points strong{color:var(--ink);font-weight:600}
 .feature.second{background:#fff}
 .feature.second .feature-side{background:radial-gradient(90% 80% at 70% 20%,rgba(56,120,200,.13),transparent 70%),radial-gradient(80% 80% at 20% 90%,rgba(15,118,110,.11),transparent 70%),var(--bg-alt)}
 
@@ -189,6 +181,17 @@ main{max-width:1080px;margin:0 auto;padding:0 1.25rem}
 @media (prefers-reduced-motion:reduce){.shot:hover{transform:none}}
 .stackline{margin:0 0 1rem!important;color:var(--muted)}
 .stackline strong{color:var(--ink);font-weight:600;margin-right:.5rem;letter-spacing:.06em;text-transform:uppercase;font-size:.72rem}
+
+/* Icons */
+.ico{width:17px;height:17px;fill:currentColor;flex:none}
+.ico[fill="none"]{fill:none}
+.social a{display:inline-flex;align-items:center;gap:.45rem}
+.social{gap:.6rem 1.8rem!important}
+.btn .ico{vertical-align:-3px;margin-right:.5rem;display:inline-block}
+.foot-links{display:flex;gap:1.2rem;justify-content:center;margin:0 0 .8rem!important}
+.foot-links a{color:var(--muted);display:inline-flex;transition:color .2s}
+.foot-links a:hover{color:var(--accent)}
+.foot-links .ico{width:20px;height:20px}
 
 /* Concise project copy */
 .usage{margin:0 0 1.4rem;color:var(--muted);max-width:34em}
